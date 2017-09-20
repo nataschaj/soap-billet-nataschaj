@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Billet</name>
+    </assembly>
+    <members>
+        <member name="M:Billet.Bil.Pris">
+            <summary>
+            Metode som udregner prisen over broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Billet.Bil.#ctor">
+            <summary>
+            constructor som sætter startprisen til 240
+            </summary>
+        </member>
+        <member name="M:Billet.MC.#ctor">
+            <summary>
+            constructor som sætter startprisen til 125
+            </summary>
+        </member>
+        <member name="M:Billet.OresundMC.Pris">
+            <summary>
+            metode som bestemmer prisen.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Billet.OresundMC.Køretøj">
+            <summary>
+            metode som returner en string. Her kan man se hvilken type køretøj det er
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
