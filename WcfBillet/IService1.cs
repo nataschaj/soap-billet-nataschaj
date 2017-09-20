@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using Billet;
 
 namespace WcfBillet
 {
@@ -15,6 +16,13 @@ namespace WcfBillet
 
         [OperationContract]
         string GetData(int value);
+
+        [OperationContract]
+        int GetBilPris();
+
+        [OperationContract]
+        int GetMCPris();
+
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
