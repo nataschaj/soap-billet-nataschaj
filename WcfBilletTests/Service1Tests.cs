@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Billet;
 
 namespace WcfBillet.Tests
-{
+{ //comment
     [TestClass()]
     public class Service1Tests
     {
