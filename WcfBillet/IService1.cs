@@ -23,6 +23,9 @@ namespace WcfBillet
         [OperationContract]
         int GetMCPris();
 
+        [OperationContract]
+        int GetMCBilPris();
+
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);

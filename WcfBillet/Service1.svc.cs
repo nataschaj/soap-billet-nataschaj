@@ -42,5 +42,12 @@ namespace WcfBillet
             var mc = new MC();
             return mc.Pris();
         }
+
+        public int GetMCBilPris()
+        {
+            var mc2 = new MC();
+            var bil2 = new Bil();
+            return mc2.Pris() + bil2.Pris(); 
+        }
     }
 }
