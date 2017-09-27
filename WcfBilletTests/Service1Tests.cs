@@ -17,7 +17,7 @@ namespace WcfBillet.Tests
         {
             var bil = new Bil();
             int pris = bil.Pris();
-            Assert.AreEqual(250, pris);
+            Assert.AreEqual(240, pris);
         }
 
         [TestMethod()]
